@@ -5,6 +5,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.myapplication.domain.model.AcademicTask
 import com.example.myapplication.domain.repository.AcademicTaskRepository
 import com.example.myapplication.domain.usecase.AddTaskUseCase
 import com.example.myapplication.domain.usecase.GetTasksUseCase
